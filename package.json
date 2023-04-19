@@ -1,10 +1,8 @@
 {
-  "name": "jasmine-boilerplate",
+  "name": "assignment-webdriverio",
   "version": "1.0.0",
-  "author": "Christian Bromann <christian@saucelabs.com>",
-  "description": "Boilerplate project to run WebdriverIO tests with Jasmine",
-  "license": "MIT",
-  "homepage": "https://github.com/webdriverio/jasmine-boilerplate#readme",
+  "author": "Akshat Nirwan <akshat1954@gmail.com>",
+  "description": "project to run WebdriverIO tests with Jasmine",
   "type": "module",
   "keywords": [
     "webdriver",
@@ -16,15 +14,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webdriverio/jasmine-boilerplate.git"
-  },
-  "bugs": {
-    "url": "https://github.com/webdriverio/jasmine-boilerplate/issues"
+    "url": "git+"
   },
   "scripts": {
-    "test": "wdio run wdio.sauce.conf.ts",
-    "test:local": "wdio run wdio.local.conf.ts",
-    "test:sauce": "wdio run wdio.sauce.conf.ts"
+    "test:local": "wdio run wdio.local.conf.ts"
   },
   "devDependencies": {
     "@types/jasmine": "^4.3.1",
